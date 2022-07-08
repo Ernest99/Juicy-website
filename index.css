@@ -18,6 +18,11 @@ header {
     background: var(--bg-color);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 nav {
     width: 100%;
     padding: 2rem 10%;
@@ -51,5 +56,26 @@ nav {
 }
 
 ul li a.active {
+    color: var(--primary);
+}
+
+main {
+    padding: 1.8rem 10%;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.col-l {
+    padding-top: 2rem;
+}
+
+.col-l h1 {
+    font-size: 3rem;
+}
+
+.color {
     color: var(--primary);
 }
