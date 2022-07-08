@@ -79,3 +79,14 @@ main {
 .color {
     color: var(--primary);
 }
+
+@media(max-width: 689px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    header {
+        height: auto;
+    }
+}
